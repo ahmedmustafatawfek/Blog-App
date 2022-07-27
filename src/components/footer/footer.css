@@ -1,0 +1,16 @@
+.fotter-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.fotter-container p{
+    padding-left:15px;
+}

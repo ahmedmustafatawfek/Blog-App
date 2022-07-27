@@ -1,0 +1,110 @@
+.LoginBar-container{
+    height:60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LoginBar-left{
+    font-size: 22px;
+    color:#5CB85C;
+    font-weight: bold;
+    padding: 10px 50px 10px 120px;
+    cursor: pointer;
+}
+
+/* ************************************************************ */
+
+.LoginBar-right{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 120px 10px 50px;
+}
+
+.LoginBar-right .btn.user,
+.LoginBar-right .btn{
+    font-size: 16px;
+    color: rgba(0,0,0,0.4);
+    border-radius:10px;
+    background-color:white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.LoginBar-right .btn.home{
+    margin:0 15px ;
+    transition: all 0.3s ease-in-out;
+}
+.LoginBar-right .btn.home:active{
+    transform: scale(0.9);
+}
+
+.LoginBar-right .btn{
+    transition: all 0.5s ease-in-out;
+}
+
+.LoginBar-right .btn.active,
+.LoginBar-right .btn.user.active,
+.LoginBar-right .btn.home.active{
+    color:#5CB85C;
+}
+
+
+.LoginBar-right .icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.LoginBar-right .icons:active{
+    transform: scale(0.9);
+}
+
+.LoginBar-right .icons .icon{
+    padding-right: 3px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+@media screen and (max-width:992px){
+    .LoginBar-left{
+        text-align: center;
+        font-size: 22px;
+        padding: 10px 20px 10px 120px;
+    }
+    .LoginBar-right{
+        display:flex;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .LoginBar-left{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+    }
+    .LoginBar-right{
+        display:flex;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .LoginBar-left{
+        text-align: center;
+        font-size: 16px;
+        padding: 0 0px 0 5px;
+    }
+
+    .LoginBar-right{
+        display:flex;
+        padding: 0 0 0 5px;
+    }
+}

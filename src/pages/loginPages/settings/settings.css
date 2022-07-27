@@ -1,0 +1,99 @@
+.settings-container{
+    height:130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Input{
+    font-size:18px;
+    width: 35%;
+    padding: 10px 25px;
+    margin-bottom:15px ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Input.first{
+    font-size:14px;
+}
+.Input.sec{
+    padding: 20px 25px;
+}
+.Input.pass{
+    background-color:rgba(22, 228, 255,0.2);;
+}
+
+.textarea{
+    width:35%;
+    resize:vertical;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    margin-bottom:15px ;
+    padding:10px 25px;
+    font-size:18px;
+    color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+.Btn{
+    background-color:#5CB85C;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    color: #fff;
+    font-size:16px;
+    cursor: pointer;
+    transition: all 0.3s ;
+    margin-bottom: 25px;
+}
+
+.or{
+    width: 30%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height:1px;
+
+}
+
+.or span{
+    font-size:14px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 0 10px;
+    background-color:white;
+}
+
+.span .border{
+    width: 100%;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+
+}
+
+.Btn:active,
+.Btn-logout:active
+{
+    transform:scale(0.9);
+}
+
+.textarea:focus,
+.Input:focus{
+    outline: 1px solid rgb(22, 228, 255);
+}
+
+.Btn-logout{
+    background-color:white;
+    margin-bottom:150px;
+    margin-top: 25px;
+    border: solid 1px rgba(211, 11, 11,0.3);
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: rgb(211, 11, 11);
+    font-size:16px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}

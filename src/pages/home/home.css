@@ -1,0 +1,13 @@
+.Title{
+    display: flex;
+    width: 60%;
+    margin:35px 0 0 130px;
+    font-size: 16px;
+    color:#5CB85C;
+    background-color:white;
+    border-bottom:solid 1px rgba(0,0,0,0.1);
+}
+.Title h4{
+    padding-bottom: 14px;
+    cursor: pointer;
+}

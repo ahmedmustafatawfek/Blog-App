@@ -1,0 +1,19 @@
+.MuiBox-root{
+    margin-bottom: -30px;
+}
+
+
+.section-left h5{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+h2{
+    padding: 20px 140px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+

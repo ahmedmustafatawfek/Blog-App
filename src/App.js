@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import Topbar from "../src/components/topbar/Topbar"
+import SignIn from "../src/pages/signin/SignIn";
+import SignUp from "../src/pages/signup/SignUp";
+import Home from "../src/pages/home/Home";
+import LoginBar from "./pages/loginPages/login-topbar/LoginBar";
+import LoginHome from "./pages/loginPages/loginHome/LoginHome";
+import NewArticle from "./pages/loginPages/newArticle/NewArticle";
+import Settings from "./pages/loginPages/settings/Settings";
+import User from "./pages/loginPages/user/User";
+// import MyArticles from "./pages/loginPages/user/Articles/MyArticles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Topbar />
+        <LoginBar/>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/loginhome" element={<LoginHome />} />
+        <Route path="/newartical" element={<NewArticle />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/MyArticles" element={<User />} />
+        <Route path="/Favorited-Articles" element={<User />} />
+      </Routes>
+
+    </Router>
   );
 }
 

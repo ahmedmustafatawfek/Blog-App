@@ -1,0 +1,47 @@
+.user-container .header{
+    height:200px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+
+.Icons{
+    width: 7%;   
+}
+
+.user-container .username{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+.bTn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+
+.bTn:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    transform: scale(0.95);
+}
+
+.bTn .icon{
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.bTn .p{
+    font-size: 14px;
+}

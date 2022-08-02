@@ -1,9 +1,35 @@
+.title{
+    display: flex;
+    width: 60%;
+    margin:35px 0 0 20px;
+    font-size: 16px;
+    color:#5CB85C;
+    background-color:white;
+    border-bottom:solid 1px rgba(0,0,0,0.1);
+}
+
+.title .tab{
+    padding-left: 15px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    text-transform:capitalize;
+}
+
+
+.title .tab.Mui-selected{
+    color:#5CB85C;
+}
+
+.title .MuiTabs-indicator {
+    background-color:#5CB85C;
+}
+/* *************************************************************** */
+
 .MuiBox-root{
     margin-bottom: -30px;
 }
 
-
-.section-left h5{
+h5{
     padding: 20px 0;
     font-size: 16px;
     font-weight: 400;
@@ -17,3 +43,7 @@ h2{
     color: rgba(0, 0, 0, 0.6);
 }
 
+
+.fixedTags{
+    margin-top:35px;
+}

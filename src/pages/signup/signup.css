@@ -13,11 +13,29 @@
     font-weight: 400;
 }
 
+.signUp-container .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.signUp-container .link{
+    text-decoration: none;
+}
 .signUp-container h6{
     color:#5CB85C;
     font-weight: 400;
     font-size:16px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.signUp-container h6:hover{
+    color: #359435;
+    text-decoration: underline;
 }
 
 .signUp-container .input{
@@ -27,12 +45,16 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius:10px;
     font-size:18px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.7);
+}
+.signUp-container .input.fill{
+    background-color:#2fb2d380;
+    color:black;
 }
 
 
 .signUp-container .input:focus{
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #2fb2d380;
     outline: none;
 }
 

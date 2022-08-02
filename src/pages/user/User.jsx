@@ -2,7 +2,7 @@ import React from 'react'
 import "./user.css"
 import SettingsIcon from '@mui/icons-material/Settings';
 import {NavLink} from 'react-router-dom'
-import Footer from '../../../components/footer/Footer';
+import Footer from '../../components/footer/Footer';
 
 
 const User = () => {

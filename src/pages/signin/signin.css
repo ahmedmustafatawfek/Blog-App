@@ -13,12 +13,22 @@
     font-weight: 400;
 }
 
+.signIn-container .link{
+    text-decoration: none;
+}
+
 .signIn-container h6{
     color:#5CB85C;
     font-weight: 400;
     font-size:16px;
     margin-bottom: 20px;
 }
+
+.signIn-container h6:hover{
+    color: #359435;
+    text-decoration: underline;
+}
+
 
 .signIn-container .input{
     width: 40%;

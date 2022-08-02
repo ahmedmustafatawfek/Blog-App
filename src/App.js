@@ -6,9 +6,9 @@ import SignUp from "../src/pages/signup/SignUp";
 import Home from "../src/pages/home/Home";
 import LoginBar from "./pages/loginPages/login-topbar/LoginBar";
 import LoginHome from "./pages/loginPages/loginHome/LoginHome";
-import NewArticle from "./pages/loginPages/newArticle/NewArticle";
-import Settings from "./pages/loginPages/settings/Settings";
-import User from "./pages/loginPages/user/User";
+import NewArticle from "./pages/newArticle/NewArticle";
+import Settings from "./pages/settings/Settings";
+import User from "./pages/user/User";
 // import MyArticles from "./pages/loginPages/user/Articles/MyArticles";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/register" element={<SignUp />} />
         <Route path="/loginhome" element={<LoginHome />} />
         <Route path="/newartical" element={<NewArticle />} />
         <Route path="/settings" element={<Settings />} />

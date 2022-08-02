@@ -11,8 +11,8 @@ const  Topbar = () => {
         <div className="topbar-right">
             <NavLink to="/" className="btn home" >Home</NavLink>
             <div className="btn-sign">
-                <NavLink to="/signin" className="btn">Sign in</NavLink>
-                <NavLink to="/signup" className="btn">Sign up</NavLink>
+                <NavLink to="/login" className="btn">Sign in</NavLink>
+                <NavLink to="/register" className="btn">Sign up</NavLink>
             </div>
         </div> 
     </div>
